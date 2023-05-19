@@ -1,0 +1,271 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.bg-container {
+  background-image: linear-gradient(to bottom, #9ba9eb, #c3caea);
+  min-height: 100vh;
+  padding-top: 10px;
+  padding-left: 60px;
+  padding-bottom: 30px;
+  font-family: 'Roboto';
+  padding-right: 60px;
+}
+.app-logo {
+  width: 150px;
+  margin-bottom: 20px;
+}
+.add-password-container {
+  background-color: #5763a5;
+  border-radius: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+}
+.add-password-image1 {
+  width: 200px;
+  height: 200px;
+  display: none;
+}
+.form-container {
+  background-color: #454f84;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: auto;
+  padding: 20px;
+}
+.form-heading {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+}
+.input-container {
+  background-color: #f8fafc;
+  display: flex;
+  height: 35px;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 4px;
+  width: 100%;
+  padding-top: 0;
+  margin-bottom: 10px;
+}
+.input-image {
+  width: 25px;
+  margin: 5px;
+}
+.input {
+  outline: none;
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 10px;
+  border: 0;
+  border-left: 2px solid #454f84;
+}
+.add-btn {
+  background-color: #0b69ff;
+  color: #ffffff;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  font-size: 14px;
+  padding: 5px;
+  width: 70px;
+  align-self: flex-end;
+}
+.add-password-image2 {
+  width: 50%;
+}
+.passwords-container {
+  background-color: #454f84;
+  border-radius: 10px;
+  padding-top: 1px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 20px;
+  padding-bottom: 5px;
+  padding: 10px;
+}
+.password-heading {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  display: inline;
+  margin-right: 10px;
+}
+.length-span {
+  border: 2px solid #ffffff;
+  display: inline-block;
+  padding: 3px;
+  width: 30px;
+  color: #ffffff;
+  font-weight: 500;
+  text-align: center;
+  border-radius: 10px;
+  height: 25px;
+}
+.container-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search-icon-container {
+  background-color: #f8fafc;
+  display: flex;
+  border-radius: 4px;
+}
+.search-icon {
+  width: 30px;
+  height: 30px;
+  padding: 4px;
+  align-self: center;
+}
+.checkbox-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.show-password {
+  color: #ffffff;
+}
+.no-password-image {
+  width: 350px;
+  height: 200px;
+}
+.no-result-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.result-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.item-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 200px;
+  height: 80px;
+  background-color: transparent;
+  border-style: solid;
+  border-color: #9ba9eb;
+  border-width: 1px;
+  border-radius: 2px;
+  padding: 10px;
+  margin-right: 18px;
+  margin-bottom: 18px;
+}
+
+.initial {
+  font-size: 16px;
+  color: white;
+  background-color: green;
+  width: 35px;
+  border-radius: 25px;
+  text-align: center;
+  padding: 8px;
+  margin-right: 10px;
+}
+
+.list-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: #f8fafc;
+  height: 100%;
+}
+
+.website {
+  font-size: 12px;
+  margin: 2px;
+}
+
+.stars-image {
+  width: 80px;
+  height: 10px;
+  margin-top: 8px;
+  margin-left: 2px;
+}
+
+.del-btn {
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border-style: none;
+  outline: none;
+  margin-left: auto;
+}
+
+.del-image {
+  width: 20px;
+  height: 20px;
+}
+
+.yellow {
+  background-color: #f59e0b;
+}
+
+.green {
+  background-color: #10b981;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.brown {
+  background-color: #b91c1c;
+}
+
+.blue {
+  background-color: #0ea5e9;
+}
+@media (max-width: 767px) {
+  .add-password-container {
+    flex-direction: column;
+  }
+  .app-logo {
+    width: 200px;
+  }
+  .form-container {
+    width: 100%;
+  }
+  .input-container {
+    height: 50px;
+  }
+  .add-password-image1 {
+    display: block;
+    height: auto;
+    width: 70%;
+    margin-bottom: 20px;
+  }
+  .add-btn {
+    height: 35px;
+  }
+  .add-password-image2 {
+    display: none;
+  }
+}
